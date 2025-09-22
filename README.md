@@ -1,5 +1,40 @@
-# Vue 3 + Vite
+# Work VueJs
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicativo simples de tarefas criado com **Vue 3 + Vite**, para organização de atividades (“To-Do List”).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🚀 Tecnologias usadas
+
+- Vue 3 com `<script setup>`
+- Vite como build tool
+- HTML5 & CSS3
+- JavaScript (ES modules)
+- (Opcional) extensão / configurações de IDE/Editor no `.vscode`
+
+---
+
+## 💡 Funcionalidades
+
+- Adicionar tarefas novas  
+- Listar todas as tarefas  
+- Marcar tarefas como concluídas  
+- Remover tarefas  
+- Interface leve, responsiva  
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+Work-VueJs/
+├── public/
+│   └── (arquivos estáticos, index.html, etc.)
+├── src/
+│   ├── components/ (caso existam componentes separados)
+│   ├── assets/ (imagens / estilos / etc.)
+│   └── main.js / App.vue ou equivalente
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
